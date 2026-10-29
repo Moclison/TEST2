@@ -1,0 +1,32 @@
+#shirt
+{
+    display: block;
+    outline: 2px solid rgb(200, 200, 100);
+    transform: translate(300px, 0px);
+  
+
+}
+#background {
+    background: linear-gradient(to right, #ffcc00, #ff66cc);
+}
+#heading {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+#reveal {
+    margin-left: 300px;
+    padding: auto;
+
+}
+#change {
+    margin-left: 20px;
+    padding: auto;
+
+}
+#shirt:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transform: translate(300px, -5px);
+    transition: transform 0.3s, box-shadow 0.3s;    
+}
+#reveal:hover, #change:hover {
+    opacity: 0.8;
+}
